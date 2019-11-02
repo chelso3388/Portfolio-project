@@ -9,3 +9,12 @@ h2 {
 
 p {font-family: fantasy;
 }
+
+img {
+  float: right;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: blue;
+}
