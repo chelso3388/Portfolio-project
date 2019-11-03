@@ -37,11 +37,10 @@ h2 {
 p {font-family: sans-serif;
 }
 
-img {
-  float: right;
+
+#hobbies {
+  font-size: 30pt;
 }
-
-
 
 .my-class {
   margin: 10px;
@@ -57,12 +56,15 @@ img {
 
 
 .flex-container {
+  width: auto;
+  height: auto;
+  margin-left: 130px;
+  margin-right: auto;
   flex-direction: row;
   display: flex;
 }
 .flex-container  img {
-margin: 0px;
-
+margin: 100px;
 }
 
 .flex-column img {
@@ -78,7 +80,6 @@ margin: 0px;
   font-size: 60px;
   font-family: sans-serif;
 }
-
 
 
 
