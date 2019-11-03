@@ -14,7 +14,18 @@ img {
   float: right;
 }
 .sidebar {
-  width: 30%;
-  float: right;
-  background-color: blue;
+  width: 25%;
+  float: left;
+  background-color: white;
+}
+
+.column {
+  width: 500px;
+  float: left;
+}
+
+.my-class {
+  margin: 12px;
+  border: 2px solid teal;
+  padding: 0px;
 }
