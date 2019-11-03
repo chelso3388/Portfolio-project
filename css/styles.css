@@ -1,6 +1,6 @@
 body,h1,h2,h3,h4 {
   font-family: sans-serif;
-  background-color: #DDDED7;
+  background-color: #848484;
   margin: 0;
   padding:0;
 }
@@ -13,7 +13,7 @@ body,h1,h2,h3,h4 {
 .digital li{
   font-style:oblique;
   font-size: 15pt;
-  background: #DDDED7;
+  background: #D8D8D8;
 }
 
 .column1,.column2,.column3 { padding-right: 64px }
@@ -26,6 +26,8 @@ p {
 
 h1 {
   color: black;
+  margin-left: 350px;
+  margin-top: 30px;
 }
 
 
@@ -46,7 +48,7 @@ p {font-family: sans-serif;
   margin: 10px;
   border: 5px solid black;
   padding: 5px;
-  background-color: #DDDED7;
+  background-color: #D8D8D8;
 }
 
 .intro {
@@ -69,11 +71,17 @@ margin: 100px;
 
 .flex-column img {
   margin: 0px
-  float: center
+  float: center;
+  margin-top: 20px;
+
 }
 
 
+.container5 {
+  margin-left: 50px;
+  margin-right: 1000px;
 
+}
 
 #project {
   color: black;
