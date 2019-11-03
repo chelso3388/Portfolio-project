@@ -1,20 +1,33 @@
-body {
+body,h1,h2,h3,h4 {
   font-family: sans-serif;
+  background-color: #DDDED7;
+  margin: 0;
+  padding:0;
+}
+
+
+#project{
+  text-align: center;
 }
 
 .digital li{
   font-style:oblique;
-  font-size: 30pt;
-  background: grey
+  font-size: 15pt;
+  background: #DDDED7;
 }
 
+.column1,.column2,.column3 { padding-right: 64px }
+
+p {
+  line-height: 15px;   /* within paragraph */
+  margin-bottom: 20px; /* between paragraphs */
+  }
 
 
 h1 {
-  color: pink;
+  color: black;
 }
 
-.container
 
 h2 {
   font-style: italic;
@@ -27,34 +40,48 @@ p {font-family: sans-serif;
 img {
   float: right;
 }
-.sidebar {
-  width: 25%;
-  float: left;
-  background-color: white;
-}
 
-.column {
-  width: 200px;
-  float: left;
-}
+
 
 .my-class {
-  margin: 1px;
-  border: 10px solid teal;
-  padding: 25px;
-  background-color: grey
+  margin: 10px;
+  border: 5px solid black;
+  padding: 5px;
+  background-color: #DDDED7;
 }
 
 .intro {
   color: purple;
-  font-size: 25pt;
+  font-size: 17pt;
 }
 
+
+.flex-container {
+  flex-direction: row;
+  display: flex;
+}
+.flex-container  img {
+margin: 0px;
+
+}
+
+.flex-column img {
+  margin: 0px
+  float: center
+}
+
+
+
+
 #project {
-  color: blue;
+  color: black;
   font-size: 60px;
   font-family: sans-serif;
 }
+
+
+
+
 
 @media screen and (min-width: 768px) {
   .column {
