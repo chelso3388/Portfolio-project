@@ -5,8 +5,8 @@ body,h1,h2,h3,h4 {
   padding:0;
 }
 
-
 #project{
+  font-size: 60pt;
   text-align: center;
 }
 
@@ -16,7 +16,8 @@ body,h1,h2,h3,h4 {
   background: #D8D8D8;
 }
 
-.column1,.column2,.column3 { padding-right: 64px }
+.column1,.column2,.column3 { padding-right: 64px
+}
 
 p {
   line-height: 15px;   /* within paragraph */
@@ -29,8 +30,6 @@ h1 {
   margin-left: 350px;
   margin-top: 30px;
 }
-
-
 h2 {
   font-style: italic;
   text-align: center;
@@ -38,7 +37,6 @@ h2 {
 
 p {font-family: sans-serif;
 }
-
 
 #hobbies {
   font-size: 30pt;
@@ -51,12 +49,6 @@ p {font-family: sans-serif;
   background-color: #D8D8D8;
 }
 
-.intro {
-  color: purple;
-  font-size: 17pt;
-}
-
-
 .flex-container {
   width: auto;
   height: auto;
@@ -65,23 +57,27 @@ p {font-family: sans-serif;
   flex-direction: row;
   display: flex;
 }
+
 .flex-container  img {
 margin: 100px;
 }
 
 .flex-column img {
-  margin: 0px
-  float: center;
+  margin: 100px;
+  float:right;
   margin-top: 20px;
-
 }
-
 
 .container5 {
+  margin-left: 1000px;
+  margin-right: 50px;
+}
+
+.container6 {
   margin-left: 50px;
   margin-right: 1000px;
-
 }
+
 
 #project {
   color: black;
