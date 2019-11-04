@@ -4,7 +4,6 @@
 
 ###Portfolio Project
 
-
 This project was to demonstrate our knowledge on creating a webpage from nothing using HTML and CSS.
 We used everything we learned in these past three weeks of class.
 
