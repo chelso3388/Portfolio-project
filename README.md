@@ -13,6 +13,4 @@ Do that by clicking the clone or download button on Github.
 Open terminal and change the current working directory to the location where you want to clone it.  
 Type git clone, and paste the URL and press enter.
 
-
-
 Copyright (C) [2019] [Chelsea Gifford]
